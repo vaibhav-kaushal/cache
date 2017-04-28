@@ -1,0 +1,1 @@
+This directory contains all the source files native to this library and is the PSR-4 namespace root for `QCubed\Cache`.

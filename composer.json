@@ -1,0 +1,30 @@
+{
+  "name": "qcubed/cache",
+  "description": "QCubed Cache Mechanism",
+  "keywords": ["qcubed", "cache", "php"],
+  "homepage": "http://qcu.be/",
+  "type": "project",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/qcubed/cache/issues?state=open",
+    "source": "https://github.com/qcubed/cache"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "predis/predis": "^1.1"
+  },
+  "require-dev": {
+    "codeception/base": "*"
+  },
+  "minimum-stability":"dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "QCubed\\Cache\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  }
+}
