@@ -10,7 +10,7 @@
     "source": "https://github.com/qcubed/cache"
   },
   "require": {
-    "php": ">=5.4.0",
+    "php": ">=7.0",
     "predis/predis": "^1.1"
   },
   "require-dev": {
